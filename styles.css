@@ -3,7 +3,7 @@
   color: #f6f5f4; 
   padding-top: 35px; 
   padding-bottom: 20px;
-  text-align: center; 
+  text-align: center;
   width: 100%;
 }
 
@@ -41,6 +41,7 @@ footer {
   padding: 40px;
   border-radius: 20px;
 }
+
 
 .card-button {
   background-color: #C40C00; 
