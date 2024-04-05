@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uno Skip Card</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #90caf9; /* Blue background to represent Skip card */
+            color: #333; /* Dark text for readability */
+        }
+
+        .card {
+            width: 200px;
+            height: 300px;
+            margin: 20px auto;
+            background-color: #2979ff; /* Brighter blue for the card itself */
+            background-size: cover;
+            background-image: url('/Users/avaehtesham/Desktop/cprg-218-lab-5-main/assets/skip.png'); /* Assuming skip.png is the image for Skip card */
+            border: 1px solid #000;
+        }
+
+        .content {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .rules {
+            text-align: left;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Uno Skip Card</h1>
+        <div class="card"></div>
+        <div class="rules">
+            <h2>Rules:</h2>
+            <p>The Skip card has the following effects in the game:</p>
+            <ul>
+                <li><strong>Skip the next player:</strong> When played, the next player in the turn order is skipped and loses their turn.</li>
+                <li><strong>Two-player game:</strong> In a two-player game, playing a Skip card makes you immediately take another turn, effectively causing the other player to lose their next turn.</li>
+                <li><strong>Strategy use:</strong> Can be used strategically to prevent the next player from playing, especially if they have only one card left.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
